@@ -13,7 +13,7 @@ import LogoLight from '../../../images/logo-light.png';
                     <img :src="LogoDark" class="l-dark" height="24" alt="">
                     <img :src="LogoLight" class="l-light" height="24" alt="">
                 </span>
-                <img src="assets/images/logo-light.png" height="24" class="hidden dark:inline-block" alt="">
+                <img :src="LogoLight" height="24" class="hidden dark:inline-block" alt="">
             </a>
             <!-- End Logo container-->
 

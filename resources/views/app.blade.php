@@ -11,5 +11,16 @@
 </head>
 <body class="font-nunito text-base text-black dark:text-white dark:bg-slate-900">
 @inertia
+
+
+<script src="https://cdn.jsdelivr.net/npm/tiny-slider@2.9.3/dist/tiny-slider.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+<!-- JAVASCRIPTS -->
+@vite([
+    'resources/libs/feather-icons/feather.min.js',
+    'resources/js/plugins.init.js',
+    'resources/js/app-script.js'
+])
+<!-- JAVASCRIPTS -->
 </body>
 </html>
